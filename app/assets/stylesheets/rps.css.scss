@@ -1,0 +1,24 @@
+// Place all the styles related to the rps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1.banner {
+	font-family: Helvetica;
+	font-weight: bolder;
+	font-size: 1.8em;
+	color: red;
+}
+
+.rpsTitle {
+  font-weight:bolder;
+  font-size:12em;
+}
+
+.gameResultTitle {
+	display:inline;
+} 
+h3.gameResultTitle > span {
+	color: blue;
+}
+.gameStatusMessage{
+	clear:both;
+} 

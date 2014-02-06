@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title class="rpsTitle">Rock * Paper * Scissors</title>
+
+  <%= stylesheet_link_tag    "rps",    media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+<h1 class="banner">
+Rock * Paper * Scissors
+</h1>
+
+<%= yield %>
+
+</body>
+</html>

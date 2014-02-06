@@ -1,0 +1,13 @@
+
+
+<p>
+To play, simply select the sign you want to throw and <br>
+and then click the 'Throw Now' button!
+</p>
+
+
+<%= form_tag "/throw" do %>
+  <%= select( :throw, :userThrow, @rp.get_items.map { |value| [value,value]}) %>
+  <%= submit_tag "Throw Now!" %>
+<% end %>
+

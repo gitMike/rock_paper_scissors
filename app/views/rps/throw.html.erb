@@ -1,0 +1,11 @@
+<div>
+    <h3 class="gameResultTitle"><span>Game Results:</span> <%= result %>  </h3>
+</div>
+
+
+<p class="gameStatusMessage">
+You threw <%= userThrow %> and the Server threw <%= serverThrow %>
+</p>
+
+<%= link_to "<button>Play Again?</button>".html_safe, :root, 
+		:id => "button_id", :class => "button_class" %>
